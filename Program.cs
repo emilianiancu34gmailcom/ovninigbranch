@@ -24,8 +24,8 @@ namespace ovninigbranch
             for (int i = 0; i < numbers.Length; i++)
             {
                 if (IsEven(numbers[i]) == true)
-                    Console.WriteLine("it's even");
-                else Console.WriteLine("it's not even");
+                    Console.WriteLine($"{numbers[i]}it's even");
+                else Console.WriteLine($"{numbers[i]}it's not even");
             }
         }
     }
